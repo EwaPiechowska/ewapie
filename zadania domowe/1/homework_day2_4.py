@@ -4,7 +4,7 @@
 
 
 print("Podaj liczbę: ")
-liczba = str (input())
+liczba = input()
 print(liczba[0:1])
 print(liczba[-1])    #od konca leci
 
