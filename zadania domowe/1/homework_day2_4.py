@@ -2,9 +2,10 @@
 # zdanie = "ala ma kota"
 # print(zdanie[1:3])
 
-
-print("Podaj liczbę: ")
-liczba = input()
-print(liczba[0:1])
-print(liczba[-1])    #od konca leci
+def pierwsza_ostatnia_cyfra():
+    print("Podaj liczbę: ")
+    liczba = input()
+    print('pierwsza liczba to: %s ' % liczba[0:1])
+    print('ostatnia liczba to: %s ' % liczba[-1])    #od konca leci
+pierwsza_ostatnia_cyfra()
 
