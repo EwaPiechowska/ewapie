@@ -1,0 +1,14 @@
+import bin2dec
+import c_na_f
+import czworokat
+import f_na_c
+import nominaly
+import parzyste_nieparzyste
+import pierwsza_ostatnia_cyfra
+import piramida
+import podzielne_3i5i7
+import podzielne_przez_3lub5lub7
+import powierzchnia_kola
+import psi_rok
+import rok_przestepny
+import losowa_funkcja

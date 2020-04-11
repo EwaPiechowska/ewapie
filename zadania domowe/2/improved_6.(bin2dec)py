@@ -14,7 +14,6 @@ wynik = 0
 #automatycznie numeruje od 0
 #podałam indeks i zakres 6
 for i in range(6):
-    bin2dec(i, i+1 ,5-i)
     wynik += bin2dec(i, i+1 ,5-i)
 print(wynik)
 

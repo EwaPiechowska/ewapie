@@ -1,6 +1,6 @@
 #8. Napisz program do sprawdzania czy liczba jest podzielna przez 3 lub 5 lub
-
-def podzielne_przez_3_5_7():
+nazwa = 'Program do sprawdzania czy liczba jest podzielna przez 3 lub 5 lub'
+def podzielne_przez_3lub5lub7():
     print("Podaj liczbę: ")
 
 #definiuje liczbę jako integer i mogę ją sobie wpisać z klawiatury
@@ -28,4 +28,3 @@ def podzielne_przez_3_5_7():
     if not podzielna:
         print("liczba jest niepodzielna przez 3 lub 5 lub 7")
 
-podzielne_przez_3_5_7()

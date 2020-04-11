@@ -10,10 +10,12 @@
 # except ValueError:
 #     print('błędna wartość podana przez użytkownika')
 
-
+nazwa = 'Program do obliczania pola powierzchni koła o zadanym promieniu'
 
 def powierzchnia_kola(promien):
     #3. Napisz program do obliczania pola powierzchni koła o zadanym promieniu (wyświetlając wzór i kolejne obliczenia)
+    print("wpisz długość promienia r: ")
+    promien = input()
     print("Wzór na pole powierzchni koła to: P = πr^2")
     try:
         r = float(promien)
@@ -22,6 +24,4 @@ def powierzchnia_kola(promien):
         print(P)
     except ValueError:
         print('błędna wartość podana przez użytkownika')
-print("wpisz długość promienia r: ")
-promien = input()
-powierzchnia_kola(promien)
+
