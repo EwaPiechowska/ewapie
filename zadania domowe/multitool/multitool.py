@@ -4,9 +4,8 @@ import random
 
 def menu():
     def losowa_funkcja():
-        def funkcja():
-            nazwa = 'Wybierz program losowo! '
-            return random.randint(1, 14)
+        return switcher.get(random.randint(1, 13))
+
     #nazwa modulu. funkcja - ale bez jej wywołania
     switcher = {
         1: bin2dec,
@@ -22,19 +21,27 @@ def menu():
         11: powierzchnia_kola,
         12: psi_rok,
         13: rok_przestepny,
-        14: losowa_funkcja
     }
     print('WITAJ W MULTITOOL PYTHON PROGRAM BY EWA! ')
+
     for i in switcher:
         print( '%d. %s ' % (i, switcher[i].nazwa))
+
+    print('14. Losowa funkcja')
+
     print('A teraz podaj numer programu i baw się dobrze: ')
     argument = int(input())
-    func = switcher.get(argument)
+    if argument == 14:
+        modul = losowa_funkcja()
+        print(modul.nazwa)
+    else:
+        modul = switcher.get(argument)
     # print(func)
     # Execute the function
-    if func is None:
+    if modul is None:
         print('oj sorry, nie ma takiego programu :(')
     else:
-        print (func.funkcja())
+         modul.funkcja()
+
 
 menu()

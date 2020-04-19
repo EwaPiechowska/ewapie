@@ -1,6 +1,6 @@
 # 4) Program rysujący piramidę o określonej wysokości, np dla 3
 nazwa = 'Program rysujący piramidę o określonej wysokości'
-def piramida():
+def funkcja():
     wysokosc = int(input())
     #i numer wiersza wpisany przez uzytkownika
     #wiersze indeksują się od 0

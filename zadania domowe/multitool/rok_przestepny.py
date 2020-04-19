@@ -1,6 +1,6 @@
 #10. Napisz program do sprawdzania czy podany rok jest rokiem przestępnym
 nazwa = 'Program do sprawdzania czy podany rok jest rokiem przestępnym'
-def rok_przestepny():
+def funkcja():
     print("podaj rok: ")
 
     try:

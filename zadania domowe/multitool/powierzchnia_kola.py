@@ -12,7 +12,7 @@
 
 nazwa = 'Program do obliczania pola powierzchni koła o zadanym promieniu'
 
-def powierzchnia_kola(promien):
+def funkcja():
     #3. Napisz program do obliczania pola powierzchni koła o zadanym promieniu (wyświetlając wzór i kolejne obliczenia)
     print("wpisz długość promienia r: ")
     promien = input()
@@ -24,4 +24,5 @@ def powierzchnia_kola(promien):
         print(P)
     except ValueError:
         print('błędna wartość podana przez użytkownika')
+
 

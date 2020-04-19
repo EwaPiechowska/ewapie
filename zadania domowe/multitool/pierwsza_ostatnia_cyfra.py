@@ -2,7 +2,7 @@
 # zdanie = "ala ma kota"
 # print(zdanie[1:3])
 nazwa = 'Program, który poda pierwszą i ostatnią cyfrę podanej liczby'
-def pierwsza_ostatnia_cyfra():
+def funkcja():
     print("Podaj liczbę: ")
     liczba = input()
     print('pierwsza liczba to: %s ' % liczba[0:1])
